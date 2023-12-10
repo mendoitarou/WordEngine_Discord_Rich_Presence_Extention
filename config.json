@@ -1,0 +1,7 @@
+{
+    "version": "1.0.0",
+    "client_id": "DisordDeveloperConsoleで取得したCLIENT ID",
+    "user_name": "user1",
+    "password": "S0F6lFbi8s82kwv93W7SolYjcfLqocsM",
+    "JWT_SECRET_KEY": "S0F6lFbi8s82kwv93W7SolYjcfLqocsM"
+}

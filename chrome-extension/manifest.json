@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "WordEngine_Discord_Rich_Presence_Extention",
+    "version": "1.0.0",
+    "description": "WordEngineを開いている際の実施状況をDiscordに表示します。",
+    "host_permissions": [
+        "http://localhost:5000/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*.wordengine.jp/*"],
+            "js": ["jquery.js", "main.js"]
+        }
+    ]
+}
